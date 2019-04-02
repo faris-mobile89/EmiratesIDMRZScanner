@@ -12,8 +12,8 @@
 		6BA285F43F15905106D938764F8EE51A /* EmiratesIDMRZScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A89E1B665AF92954430CA096BE30F5FC /* EmiratesIDMRZScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7000EA815949C441E98D02E566F86EFB /* Pods-EmiratesIDMRZScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 221962ECB6094700CF4BF51450563CAE /* Pods-EmiratesIDMRZScanner_Tests-dummy.m */; };
 		92BEE34C64B3A0AAE3907FA71759B510 /* Pods-EmiratesIDMRZScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25334380BA85FA64D17F4D8A3B994D9B /* Pods-EmiratesIDMRZScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BF8F1E4DCDD9AE0A94443F2054D54F7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9535A8B8BC4B31EB4E24C06E665EBE6F /* ReplaceMe.swift */; };
 		A25366329AD9E795913BE655CE27D045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CAF69A6C2253A70C00C9A6EF /* EmiratesIDMRZScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF69A6B2253A70C00C9A6EF /* EmiratesIDMRZScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +31,25 @@
 		10D27AE4B294641D0569648C1BBF86EB /* Pods-EmiratesIDMRZScanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmiratesIDMRZScanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		221962ECB6094700CF4BF51450563CAE /* Pods-EmiratesIDMRZScanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmiratesIDMRZScanner_Tests-dummy.m"; sourceTree = "<group>"; };
 		25334380BA85FA64D17F4D8A3B994D9B /* Pods-EmiratesIDMRZScanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmiratesIDMRZScanner_Tests-umbrella.h"; sourceTree = "<group>"; };
-		343238EF63FF783AAA74B121D1F95B0A /* EmiratesIDMRZScanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EmiratesIDMRZScanner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		343238EF63FF783AAA74B121D1F95B0A /* EmiratesIDMRZScanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = EmiratesIDMRZScanner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		468B1A91BEA8D83E8514DD84C9446B57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A65FED370980778B7AF54F4C832E765 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4A65FED370980778B7AF54F4C832E765 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		588DEF37715C0989AF27E111ED929120 /* Pods-EmiratesIDMRZScanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmiratesIDMRZScanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		61524360C81821E8CADCDB24CB3D6320 /* EmiratesIDMRZScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmiratesIDMRZScanner.modulemap; sourceTree = "<group>"; };
 		6E9EF17FD54776BF48EEFFBFA70EE399 /* EmiratesIDMRZScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmiratesIDMRZScanner.xcconfig; sourceTree = "<group>"; };
 		717598025D50E84D83CCD64E89BAC142 /* Pods-EmiratesIDMRZScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmiratesIDMRZScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7957FD49824D05E271187205D89F0A6A /* EmiratesIDMRZScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmiratesIDMRZScanner-dummy.m"; sourceTree = "<group>"; };
-		872274540799F7700B73C25E1529FC7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8A605B7ACD8FC7DB6C20968D7C5698E6 /* Pods_EmiratesIDMRZScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmiratesIDMRZScanner_Tests.framework; path = "Pods-EmiratesIDMRZScanner_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9535A8B8BC4B31EB4E24C06E665EBE6F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EmiratesIDMRZScanner/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		872274540799F7700B73C25E1529FC7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8A605B7ACD8FC7DB6C20968D7C5698E6 /* Pods_EmiratesIDMRZScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmiratesIDMRZScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE8BB34EEDA6D60A89F06B37ABAE965 /* Pods-EmiratesIDMRZScanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmiratesIDMRZScanner_Tests.modulemap"; sourceTree = "<group>"; };
 		A32E27D5757DFC7589CA05E29299B13C /* Pods-EmiratesIDMRZScanner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmiratesIDMRZScanner_Tests-resources.sh"; sourceTree = "<group>"; };
 		A89E1B665AF92954430CA096BE30F5FC /* EmiratesIDMRZScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmiratesIDMRZScanner-umbrella.h"; sourceTree = "<group>"; };
-		ABC983FB6E3A6974627CE4F62C35FC3D /* EmiratesIDMRZScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmiratesIDMRZScanner.framework; path = EmiratesIDMRZScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC983FB6E3A6974627CE4F62C35FC3D /* EmiratesIDMRZScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmiratesIDMRZScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40DC2C8FACC9214EFFF009BAF629127 /* Pods-EmiratesIDMRZScanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmiratesIDMRZScanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C9EB80B1A257D976E56CFC41A678FE0F /* Pods-EmiratesIDMRZScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmiratesIDMRZScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CAF69A6B2253A70C00C9A6EF /* EmiratesIDMRZScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmiratesIDMRZScannerView.swift; path = EmiratesIDMRZScanner/Classes/EmiratesIDMRZScannerView.swift; sourceTree = "<group>"; };
 		DD06038EFBCB6EB5CB0520C99CF06BAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,9 +112,9 @@
 		8DD0164865CFA2002364406DB9B56EDC /* EmiratesIDMRZScanner */ = {
 			isa = PBXGroup;
 			children = (
-				9535A8B8BC4B31EB4E24C06E665EBE6F /* ReplaceMe.swift */,
 				B6F6FD613E6F496102EED1C729858DFD /* Pod */,
 				ACC501106F363C8595C997B83241059F /* Support Files */,
+				CAF69A6B2253A70C00C9A6EF /* EmiratesIDMRZScannerView.swift */,
 			);
 			name = EmiratesIDMRZScanner;
 			path = ../..;
@@ -243,6 +243,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					A7CCB71CBEED90B75E7E4004AC3A7E57 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -267,8 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF69A6C2253A70C00C9A6EF /* EmiratesIDMRZScannerView.swift in Sources */,
 				17501F15D217B58FBFDA86F74BF2DEA3 /* EmiratesIDMRZScanner-dummy.m in Sources */,
-				9BF8F1E4DCDD9AE0A94443F2054D54F7 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E9EF17FD54776BF48EEFFBFA70EE399 /* EmiratesIDMRZScanner.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -329,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E9EF17FD54776BF48EEFFBFA70EE399 /* EmiratesIDMRZScanner.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

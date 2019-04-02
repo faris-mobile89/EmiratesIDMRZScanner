@@ -13,14 +13,14 @@
 
 /* Begin PBXFileReference section */
 		18810DFD6CF8A7E51AE50370 /* Pods-EmiratesIDMRZScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmiratesIDMRZScanner_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmiratesIDMRZScanner_Tests/Pods-EmiratesIDMRZScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		34D222C0F801E780D7FD9A86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		34D222C0F801E780D7FD9A86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* EmiratesIDMRZScanner_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmiratesIDMRZScanner_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		642D44F61427B578F9AEF0AA /* EmiratesIDMRZScanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EmiratesIDMRZScanner.podspec; path = ../EmiratesIDMRZScanner.podspec; sourceTree = "<group>"; };
+		642D44F61427B578F9AEF0AA /* EmiratesIDMRZScanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EmiratesIDMRZScanner.podspec; path = ../EmiratesIDMRZScanner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		776E8C772E2B3A1504DDA400 /* Pods_EmiratesIDMRZScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmiratesIDMRZScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B731054A459E6009772F85F /* Pods-EmiratesIDMRZScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmiratesIDMRZScanner_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmiratesIDMRZScanner_Tests/Pods-EmiratesIDMRZScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FAE1839FEDA05E0D625DDAC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FAE1839FEDA05E0D625DDAC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,15 +127,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = S9R58L94VQ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -232,12 +229,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -285,12 +284,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -323,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B731054A459E6009772F85F /* Pods-EmiratesIDMRZScanner_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = S9R58L94VQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -345,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18810DFD6CF8A7E51AE50370 /* Pods-EmiratesIDMRZScanner_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = S9R58L94VQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

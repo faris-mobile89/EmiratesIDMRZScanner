@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.name             = 'EmiratesIDMRZScanner'
   s.version          = '0.1.0'
   s.summary          = 'Emirates ID MRZ scanner'
-
+  s.swift_version = "4.2"
+  
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -31,6 +32,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'EmiratesIDMRZScanner/Classes/**/*'
+  s.frameworks   =  "Foundation", "UIKit", "AVFoundation", "CoreImage", "AudioToolbox"
+  
+  s.dependency "EVGPUImage2"
+  s.dependency "QKMRZParser"
+  s.dependency "SwiftyTesseract"
   
   # s.resource_bundles = {
   #   'EmiratesIDMRZScanner' => ['EmiratesIDMRZScanner/Assets/*.png']

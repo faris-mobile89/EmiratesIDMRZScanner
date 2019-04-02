@@ -56,7 +56,7 @@
 		CAF69A6E2253B0DC00C9A6EF /* CutoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CutoutView.swift; path = EmiratesIDMRZScanner/Classes/CutoutView.swift; sourceTree = "<group>"; };
 		CAF69A702253B0DC00C9A6EF /* AVCaptureVideoOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCaptureVideoOrientation.swift; sourceTree = "<group>"; };
 		CAF69A712253B0DC00C9A6EF /* MRZScanResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRZScanResult.swift; path = EmiratesIDMRZScanner/Classes/MRZScanResult.swift; sourceTree = "<group>"; };
-		CAF69A9A2253B58B00C9A6EF /* ocrb.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocrb.traineddata; sourceTree = "<group>"; };
+		CAF69A9D2253B66400C9A6EF /* ocrb.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocrb.traineddata; sourceTree = "<group>"; };
 		DD06038EFBCB6EB5CB0520C99CF06BAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +119,7 @@
 		8DD0164865CFA2002364406DB9B56EDC /* EmiratesIDMRZScanner */ = {
 			isa = PBXGroup;
 			children = (
+				CAF69A9E2253B6A100C9A6EF /* ocrb */,
 				CAF69A6E2253B0DC00C9A6EF /* CutoutView.swift */,
 				CAF69A6D2253B0DB00C9A6EF /* EmiratesIDMRZScannerView.swift */,
 				CAF69A712253B0DC00C9A6EF /* MRZScanResult.swift */,
@@ -141,7 +142,6 @@
 		ACC501106F363C8595C997B83241059F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CAF69A992253B58B00C9A6EF /* tessdata */,
 				61524360C81821E8CADCDB24CB3D6320 /* EmiratesIDMRZScanner.modulemap */,
 				6E9EF17FD54776BF48EEFFBFA70EE399 /* EmiratesIDMRZScanner.xcconfig */,
 				7957FD49824D05E271187205D89F0A6A /* EmiratesIDMRZScanner-dummy.m */,
@@ -198,13 +198,12 @@
 			path = EmiratesIDMRZScanner/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		CAF69A992253B58B00C9A6EF /* tessdata */ = {
+		CAF69A9E2253B6A100C9A6EF /* ocrb */ = {
 			isa = PBXGroup;
 			children = (
-				CAF69A9A2253B58B00C9A6EF /* ocrb.traineddata */,
+				CAF69A9D2253B66400C9A6EF /* ocrb.traineddata */,
 			);
-			name = tessdata;
-			path = tessdata/tessdata;
+			path = ocrb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

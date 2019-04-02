@@ -1,0 +1,6 @@
+framework module EmiratesIDMRZScanner {
+  umbrella header "EmiratesIDMRZScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

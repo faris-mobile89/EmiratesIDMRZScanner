@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17501F15D217B58FBFDA86F74BF2DEA3 /* EmiratesIDMRZScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7957FD49824D05E271187205D89F0A6A /* EmiratesIDMRZScanner-dummy.m */; };
+		3A4524F84E80475C086D9FCB67A92A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6BA285F43F15905106D938764F8EE51A /* EmiratesIDMRZScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A89E1B665AF92954430CA096BE30F5FC /* EmiratesIDMRZScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7000EA815949C441E98D02E566F86EFB /* Pods-EmiratesIDMRZScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 221962ECB6094700CF4BF51450563CAE /* Pods-EmiratesIDMRZScanner_Tests-dummy.m */; };
+		92BEE34C64B3A0AAE3907FA71759B510 /* Pods-EmiratesIDMRZScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25334380BA85FA64D17F4D8A3B994D9B /* Pods-EmiratesIDMRZScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BF8F1E4DCDD9AE0A94443F2054D54F7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9535A8B8BC4B31EB4E24C06E665EBE6F /* ReplaceMe.swift */; };
+		A25366329AD9E795913BE655CE27D045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54886E75C41BDECCF39087F12BEA7860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CCB71CBEED90B75E7E4004AC3A7E57;
+			remoteInfo = EmiratesIDMRZScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10431FF7327EFD882B007A57B47B2364 /* EmiratesIDMRZScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmiratesIDMRZScanner-prefix.pch"; sourceTree = "<group>"; };
+		10D27AE4B294641D0569648C1BBF86EB /* Pods-EmiratesIDMRZScanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmiratesIDMRZScanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		221962ECB6094700CF4BF51450563CAE /* Pods-EmiratesIDMRZScanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmiratesIDMRZScanner_Tests-dummy.m"; sourceTree = "<group>"; };
+		25334380BA85FA64D17F4D8A3B994D9B /* Pods-EmiratesIDMRZScanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmiratesIDMRZScanner_Tests-umbrella.h"; sourceTree = "<group>"; };
+		343238EF63FF783AAA74B121D1F95B0A /* EmiratesIDMRZScanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EmiratesIDMRZScanner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		468B1A91BEA8D83E8514DD84C9446B57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A65FED370980778B7AF54F4C832E765 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		588DEF37715C0989AF27E111ED929120 /* Pods-EmiratesIDMRZScanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmiratesIDMRZScanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61524360C81821E8CADCDB24CB3D6320 /* EmiratesIDMRZScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmiratesIDMRZScanner.modulemap; sourceTree = "<group>"; };
+		6E9EF17FD54776BF48EEFFBFA70EE399 /* EmiratesIDMRZScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmiratesIDMRZScanner.xcconfig; sourceTree = "<group>"; };
+		717598025D50E84D83CCD64E89BAC142 /* Pods-EmiratesIDMRZScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmiratesIDMRZScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7957FD49824D05E271187205D89F0A6A /* EmiratesIDMRZScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmiratesIDMRZScanner-dummy.m"; sourceTree = "<group>"; };
+		872274540799F7700B73C25E1529FC7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8A605B7ACD8FC7DB6C20968D7C5698E6 /* Pods_EmiratesIDMRZScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmiratesIDMRZScanner_Tests.framework; path = "Pods-EmiratesIDMRZScanner_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9535A8B8BC4B31EB4E24C06E665EBE6F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EmiratesIDMRZScanner/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9EE8BB34EEDA6D60A89F06B37ABAE965 /* Pods-EmiratesIDMRZScanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmiratesIDMRZScanner_Tests.modulemap"; sourceTree = "<group>"; };
+		A32E27D5757DFC7589CA05E29299B13C /* Pods-EmiratesIDMRZScanner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmiratesIDMRZScanner_Tests-resources.sh"; sourceTree = "<group>"; };
+		A89E1B665AF92954430CA096BE30F5FC /* EmiratesIDMRZScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmiratesIDMRZScanner-umbrella.h"; sourceTree = "<group>"; };
+		ABC983FB6E3A6974627CE4F62C35FC3D /* EmiratesIDMRZScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmiratesIDMRZScanner.framework; path = EmiratesIDMRZScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40DC2C8FACC9214EFFF009BAF629127 /* Pods-EmiratesIDMRZScanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmiratesIDMRZScanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C9EB80B1A257D976E56CFC41A678FE0F /* Pods-EmiratesIDMRZScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmiratesIDMRZScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DD06038EFBCB6EB5CB0520C99CF06BAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2698E1F4DC3C61020ECCA10DE21370BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25366329AD9E795913BE655CE27D045 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA8FB294081DCB81188D1041E40F2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4524F84E80475C086D9FCB67A92A8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CEB24F3F36C9E3BF83F4403A2FDB376 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0164865CFA2002364406DB9B56EDC /* EmiratesIDMRZScanner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5CEB24F3F36C9E3BF83F4403A2FDB376 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				86AA8BE70F4218D555F012D167BDFB56 /* Products */,
+				9261AB25DDF8A2D004B2EF120E6D231D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86AA8BE70F4218D555F012D167BDFB56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC983FB6E3A6974627CE4F62C35FC3D /* EmiratesIDMRZScanner.framework */,
+				8A605B7ACD8FC7DB6C20968D7C5698E6 /* Pods_EmiratesIDMRZScanner_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DD0164865CFA2002364406DB9B56EDC /* EmiratesIDMRZScanner */ = {
+			isa = PBXGroup;
+			children = (
+				9535A8B8BC4B31EB4E24C06E665EBE6F /* ReplaceMe.swift */,
+				B6F6FD613E6F496102EED1C729858DFD /* Pod */,
+				ACC501106F363C8595C997B83241059F /* Support Files */,
+			);
+			name = EmiratesIDMRZScanner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9261AB25DDF8A2D004B2EF120E6D231D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5650265996D9A1B6542227C373195E3 /* Pods-EmiratesIDMRZScanner_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ACC501106F363C8595C997B83241059F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61524360C81821E8CADCDB24CB3D6320 /* EmiratesIDMRZScanner.modulemap */,
+				6E9EF17FD54776BF48EEFFBFA70EE399 /* EmiratesIDMRZScanner.xcconfig */,
+				7957FD49824D05E271187205D89F0A6A /* EmiratesIDMRZScanner-dummy.m */,
+				10431FF7327EFD882B007A57B47B2364 /* EmiratesIDMRZScanner-prefix.pch */,
+				A89E1B665AF92954430CA096BE30F5FC /* EmiratesIDMRZScanner-umbrella.h */,
+				DD06038EFBCB6EB5CB0520C99CF06BAF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EmiratesIDMRZScanner";
+			sourceTree = "<group>";
+		};
+		B6F6FD613E6F496102EED1C729858DFD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				343238EF63FF783AAA74B121D1F95B0A /* EmiratesIDMRZScanner.podspec */,
+				4A65FED370980778B7AF54F4C832E765 /* LICENSE */,
+				872274540799F7700B73C25E1529FC7D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5650265996D9A1B6542227C373195E3 /* Pods-EmiratesIDMRZScanner_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				468B1A91BEA8D83E8514DD84C9446B57 /* Info.plist */,
+				9EE8BB34EEDA6D60A89F06B37ABAE965 /* Pods-EmiratesIDMRZScanner_Tests.modulemap */,
+				10D27AE4B294641D0569648C1BBF86EB /* Pods-EmiratesIDMRZScanner_Tests-acknowledgements.markdown */,
+				588DEF37715C0989AF27E111ED929120 /* Pods-EmiratesIDMRZScanner_Tests-acknowledgements.plist */,
+				221962ECB6094700CF4BF51450563CAE /* Pods-EmiratesIDMRZScanner_Tests-dummy.m */,
+				B40DC2C8FACC9214EFFF009BAF629127 /* Pods-EmiratesIDMRZScanner_Tests-frameworks.sh */,
+				A32E27D5757DFC7589CA05E29299B13C /* Pods-EmiratesIDMRZScanner_Tests-resources.sh */,
+				25334380BA85FA64D17F4D8A3B994D9B /* Pods-EmiratesIDMRZScanner_Tests-umbrella.h */,
+				717598025D50E84D83CCD64E89BAC142 /* Pods-EmiratesIDMRZScanner_Tests.debug.xcconfig */,
+				C9EB80B1A257D976E56CFC41A678FE0F /* Pods-EmiratesIDMRZScanner_Tests.release.xcconfig */,
+			);
+			name = "Pods-EmiratesIDMRZScanner_Tests";
+			path = "Target Support Files/Pods-EmiratesIDMRZScanner_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7880FDB0C7E9C1129958912979D33F11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA285F43F15905106D938764F8EE51A /* EmiratesIDMRZScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28D4649CDCE5D78B17C90CF4D4D937C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BEE34C64B3A0AAE3907FA71759B510 /* Pods-EmiratesIDMRZScanner_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7CCB71CBEED90B75E7E4004AC3A7E57 /* EmiratesIDMRZScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CBB1A9684112BA88C3F2A6842C908B /* Build configuration list for PBXNativeTarget "EmiratesIDMRZScanner" */;
+			buildPhases = (
+				7010767C45F47ABF2BEA66C6F8B61004 /* Sources */,
+				2698E1F4DC3C61020ECCA10DE21370BF /* Frameworks */,
+				7880FDB0C7E9C1129958912979D33F11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmiratesIDMRZScanner;
+			productName = EmiratesIDMRZScanner;
+			productReference = ABC983FB6E3A6974627CE4F62C35FC3D /* EmiratesIDMRZScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B65E1C9DD15A53B554CAC0B834B6CE36 /* Pods-EmiratesIDMRZScanner_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDD4454C085D26EC5D01291EFC316AD /* Build configuration list for PBXNativeTarget "Pods-EmiratesIDMRZScanner_Tests" */;
+			buildPhases = (
+				909C458752EE96424EF63BCA0DEB4348 /* Sources */,
+				DAA8FB294081DCB81188D1041E40F2A7 /* Frameworks */,
+				A28D4649CDCE5D78B17C90CF4D4D937C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D99D6B9272E576F92A497B3EB3630A /* PBXTargetDependency */,
+			);
+			name = "Pods-EmiratesIDMRZScanner_Tests";
+			productName = "Pods-EmiratesIDMRZScanner_Tests";
+			productReference = 8A605B7ACD8FC7DB6C20968D7C5698E6 /* Pods_EmiratesIDMRZScanner_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 86AA8BE70F4218D555F012D167BDFB56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7CCB71CBEED90B75E7E4004AC3A7E57 /* EmiratesIDMRZScanner */,
+				B65E1C9DD15A53B554CAC0B834B6CE36 /* Pods-EmiratesIDMRZScanner_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7010767C45F47ABF2BEA66C6F8B61004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17501F15D217B58FBFDA86F74BF2DEA3 /* EmiratesIDMRZScanner-dummy.m in Sources */,
+				9BF8F1E4DCDD9AE0A94443F2054D54F7 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909C458752EE96424EF63BCA0DEB4348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7000EA815949C441E98D02E566F86EFB /* Pods-EmiratesIDMRZScanner_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62D99D6B9272E576F92A497B3EB3630A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmiratesIDMRZScanner;
+			target = A7CCB71CBEED90B75E7E4004AC3A7E57 /* EmiratesIDMRZScanner */;
+			targetProxy = 54886E75C41BDECCF39087F12BEA7860 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34289A95721281FBEAC861084ECFCC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9EF17FD54776BF48EEFFBFA70EE399 /* EmiratesIDMRZScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmiratesIDMRZScanner/EmiratesIDMRZScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmiratesIDMRZScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmiratesIDMRZScanner/EmiratesIDMRZScanner.modulemap";
+				PRODUCT_MODULE_NAME = EmiratesIDMRZScanner;
+				PRODUCT_NAME = EmiratesIDMRZScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D85724187FCA49A74551914D00C17DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9EF17FD54776BF48EEFFBFA70EE399 /* EmiratesIDMRZScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmiratesIDMRZScanner/EmiratesIDMRZScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmiratesIDMRZScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmiratesIDMRZScanner/EmiratesIDMRZScanner.modulemap";
+				PRODUCT_MODULE_NAME = EmiratesIDMRZScanner;
+				PRODUCT_NAME = EmiratesIDMRZScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A76280D97EBB6319E07A2EA48135DE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EB80B1A257D976E56CFC41A678FE0F /* Pods-EmiratesIDMRZScanner_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmiratesIDMRZScanner_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmiratesIDMRZScanner_Tests/Pods-EmiratesIDMRZScanner_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CDA9B9B539A86124A593EE417F6E9F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717598025D50E84D83CCD64E89BAC142 /* Pods-EmiratesIDMRZScanner_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmiratesIDMRZScanner_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmiratesIDMRZScanner_Tests/Pods-EmiratesIDMRZScanner_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DDD4454C085D26EC5D01291EFC316AD /* Build configuration list for PBXNativeTarget "Pods-EmiratesIDMRZScanner_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA9B9B539A86124A593EE417F6E9F4A /* Debug */,
+				A76280D97EBB6319E07A2EA48135DE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CBB1A9684112BA88C3F2A6842C908B /* Build configuration list for PBXNativeTarget "EmiratesIDMRZScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D85724187FCA49A74551914D00C17DB /* Debug */,
+				34289A95721281FBEAC861084ECFCC87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

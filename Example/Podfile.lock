@@ -1,0 +1,16 @@
+PODS:
+  - EmiratesIDMRZScanner (0.1.0)
+
+DEPENDENCIES:
+  - EmiratesIDMRZScanner (from `../`)
+
+EXTERNAL SOURCES:
+  EmiratesIDMRZScanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EmiratesIDMRZScanner: a1d094bd52bd5140fc635aca11f0720b981c927a
+
+PODFILE CHECKSUM: 08a94715dda4871eda0882fd0e34253135cf0190
+
+COCOAPODS: 1.5.3

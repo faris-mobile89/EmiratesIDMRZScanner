@@ -1,0 +1,22 @@
+{
+  "name": "EmiratesIDMRZScanner",
+  "version": "0.1.0",
+  "summary": "A short description of EmiratesIDMRZScanner.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/faris.it.cs@gmail.com/EmiratesIDMRZScanner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "faris.it.cs@gmail.com": "outsource.fn@tra.gov.ae"
+  },
+  "source": {
+    "git": "https://github.com/faris.it.cs@gmail.com/EmiratesIDMRZScanner.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EmiratesIDMRZScanner/Classes/**/*"
+}

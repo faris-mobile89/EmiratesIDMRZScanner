@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EmiratesIDMRZScanner_Tests' do
+  pod 'EmiratesIDMRZScanner', :path => '../'
+  
+  
+end

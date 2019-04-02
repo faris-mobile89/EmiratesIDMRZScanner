@@ -32,6 +32,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'EmiratesIDMRZScanner/Classes/**/*'
+  s.resources    = "EmiratesIDMRZScanner/Supporting Files/tessdata"
+  
   s.frameworks   =  "Foundation", "UIKit", "AVFoundation", "CoreImage", "AudioToolbox"
   
   s.dependency "EVGPUImage2"

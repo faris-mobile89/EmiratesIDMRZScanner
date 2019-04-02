@@ -56,7 +56,6 @@
 		CAF69A6E2253B0DC00C9A6EF /* CutoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CutoutView.swift; path = EmiratesIDMRZScanner/Classes/CutoutView.swift; sourceTree = "<group>"; };
 		CAF69A702253B0DC00C9A6EF /* AVCaptureVideoOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCaptureVideoOrientation.swift; sourceTree = "<group>"; };
 		CAF69A712253B0DC00C9A6EF /* MRZScanResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRZScanResult.swift; path = EmiratesIDMRZScanner/Classes/MRZScanResult.swift; sourceTree = "<group>"; };
-		CAF69AA52253BB0400C9A6EF /* ocrb.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; name = ocrb.traineddata; path = "EmiratesIDMRZScanner/Assets/Supporting Files/tessdata/ocrb.traineddata"; sourceTree = "<group>"; };
 		DD06038EFBCB6EB5CB0520C99CF06BAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +118,6 @@
 		8DD0164865CFA2002364406DB9B56EDC /* EmiratesIDMRZScanner */ = {
 			isa = PBXGroup;
 			children = (
-				CAF69AA52253BB0400C9A6EF /* ocrb.traineddata */,
 				CAF69A6E2253B0DC00C9A6EF /* CutoutView.swift */,
 				CAF69A6D2253B0DB00C9A6EF /* EmiratesIDMRZScannerView.swift */,
 				CAF69A712253B0DC00C9A6EF /* MRZScanResult.swift */,

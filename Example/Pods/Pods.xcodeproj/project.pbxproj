@@ -119,7 +119,6 @@
 		8DD0164865CFA2002364406DB9B56EDC /* EmiratesIDMRZScanner */ = {
 			isa = PBXGroup;
 			children = (
-				CAF69A9E2253B6A100C9A6EF /* ocrb */,
 				CAF69A6E2253B0DC00C9A6EF /* CutoutView.swift */,
 				CAF69A6D2253B0DB00C9A6EF /* EmiratesIDMRZScannerView.swift */,
 				CAF69A712253B0DC00C9A6EF /* MRZScanResult.swift */,
@@ -142,6 +141,7 @@
 		ACC501106F363C8595C997B83241059F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAF69A9E2253B6A100C9A6EF /* ocrb */,
 				61524360C81821E8CADCDB24CB3D6320 /* EmiratesIDMRZScanner.modulemap */,
 				6E9EF17FD54776BF48EEFFBFA70EE399 /* EmiratesIDMRZScanner.xcconfig */,
 				7957FD49824D05E271187205D89F0A6A /* EmiratesIDMRZScanner-dummy.m */,

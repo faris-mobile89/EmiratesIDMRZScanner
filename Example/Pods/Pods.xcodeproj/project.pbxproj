@@ -13,7 +13,10 @@
 		7000EA815949C441E98D02E566F86EFB /* Pods-EmiratesIDMRZScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 221962ECB6094700CF4BF51450563CAE /* Pods-EmiratesIDMRZScanner_Tests-dummy.m */; };
 		92BEE34C64B3A0AAE3907FA71759B510 /* Pods-EmiratesIDMRZScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25334380BA85FA64D17F4D8A3B994D9B /* Pods-EmiratesIDMRZScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A25366329AD9E795913BE655CE27D045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CAF69A6C2253A70C00C9A6EF /* EmiratesIDMRZScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF69A6B2253A70C00C9A6EF /* EmiratesIDMRZScannerView.swift */; };
+		CAF69A722253B0DC00C9A6EF /* EmiratesIDMRZScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF69A6D2253B0DB00C9A6EF /* EmiratesIDMRZScannerView.swift */; };
+		CAF69A732253B0DC00C9A6EF /* CutoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF69A6E2253B0DC00C9A6EF /* CutoutView.swift */; };
+		CAF69A742253B0DC00C9A6EF /* AVCaptureVideoOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF69A702253B0DC00C9A6EF /* AVCaptureVideoOrientation.swift */; };
+		CAF69A752253B0DC00C9A6EF /* MRZScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF69A712253B0DC00C9A6EF /* MRZScanResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +52,10 @@
 		ABC983FB6E3A6974627CE4F62C35FC3D /* EmiratesIDMRZScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmiratesIDMRZScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40DC2C8FACC9214EFFF009BAF629127 /* Pods-EmiratesIDMRZScanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmiratesIDMRZScanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C9EB80B1A257D976E56CFC41A678FE0F /* Pods-EmiratesIDMRZScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmiratesIDMRZScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CAF69A6B2253A70C00C9A6EF /* EmiratesIDMRZScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmiratesIDMRZScannerView.swift; path = EmiratesIDMRZScanner/Classes/EmiratesIDMRZScannerView.swift; sourceTree = "<group>"; };
+		CAF69A6D2253B0DB00C9A6EF /* EmiratesIDMRZScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmiratesIDMRZScannerView.swift; path = EmiratesIDMRZScanner/Classes/EmiratesIDMRZScannerView.swift; sourceTree = "<group>"; };
+		CAF69A6E2253B0DC00C9A6EF /* CutoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CutoutView.swift; path = EmiratesIDMRZScanner/Classes/CutoutView.swift; sourceTree = "<group>"; };
+		CAF69A702253B0DC00C9A6EF /* AVCaptureVideoOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCaptureVideoOrientation.swift; sourceTree = "<group>"; };
+		CAF69A712253B0DC00C9A6EF /* MRZScanResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRZScanResult.swift; path = EmiratesIDMRZScanner/Classes/MRZScanResult.swift; sourceTree = "<group>"; };
 		DD06038EFBCB6EB5CB0520C99CF06BAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,9 +118,12 @@
 		8DD0164865CFA2002364406DB9B56EDC /* EmiratesIDMRZScanner */ = {
 			isa = PBXGroup;
 			children = (
+				CAF69A6E2253B0DC00C9A6EF /* CutoutView.swift */,
+				CAF69A6D2253B0DB00C9A6EF /* EmiratesIDMRZScannerView.swift */,
+				CAF69A712253B0DC00C9A6EF /* MRZScanResult.swift */,
+				CAF69A6F2253B0DC00C9A6EF /* Extensions */,
 				B6F6FD613E6F496102EED1C729858DFD /* Pod */,
 				ACC501106F363C8595C997B83241059F /* Support Files */,
-				CAF69A6B2253A70C00C9A6EF /* EmiratesIDMRZScannerView.swift */,
 			);
 			name = EmiratesIDMRZScanner;
 			path = ../..;
@@ -176,6 +185,15 @@
 			);
 			name = "Pods-EmiratesIDMRZScanner_Tests";
 			path = "Target Support Files/Pods-EmiratesIDMRZScanner_Tests";
+			sourceTree = "<group>";
+		};
+		CAF69A6F2253B0DC00C9A6EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CAF69A702253B0DC00C9A6EF /* AVCaptureVideoOrientation.swift */,
+			);
+			name = Extensions;
+			path = EmiratesIDMRZScanner/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF69A6C2253A70C00C9A6EF /* EmiratesIDMRZScannerView.swift in Sources */,
+				CAF69A742253B0DC00C9A6EF /* AVCaptureVideoOrientation.swift in Sources */,
+				CAF69A752253B0DC00C9A6EF /* MRZScanResult.swift in Sources */,
+				CAF69A722253B0DC00C9A6EF /* EmiratesIDMRZScannerView.swift in Sources */,
 				17501F15D217B58FBFDA86F74BF2DEA3 /* EmiratesIDMRZScanner-dummy.m in Sources */,
+				CAF69A732253B0DC00C9A6EF /* CutoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

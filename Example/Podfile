@@ -1,6 +1,8 @@
 use_frameworks!
 target 'EmiratesIDMRZScanner_Tests' do
   pod 'EmiratesIDMRZScanner', :path => '../'
-  
+  pod 'EVGPUImage2', '~> 0.2.0'
+  pod 'QKMRZParser', '~> 1.0.1'
+  pod 'SwiftyTesseract', '~> 2.0.1'
   
 end

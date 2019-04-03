@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
   Emirates ID Scanner to scan MRZ code
                        DESC
 
-  s.homepage         = 'https://github.com/faris.it.cs@gmail.com/EmiratesIDMRZScanner'
+  s.homepage         = 'https://github.com/faris-mobile89/EmiratesIDMRZScanner'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'faris.it.cs@gmail.com' => 'outsource.fn@tra.gov.ae' }
-  s.source           = { :git => 'https://github.com/faris.it.cs@gmail.com/EmiratesIDMRZScanner.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/faris-mobile89/EmiratesIDMRZScanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

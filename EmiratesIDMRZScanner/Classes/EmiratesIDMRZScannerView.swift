@@ -12,7 +12,7 @@ import QKMRZParser
 import EVGPUImage2
 import AudioToolbox
 
-public protocol QKMRZScannerViewDelegate: class {
+public protocol EmiratesIDMRZScannerViewDelegate: class {
     func mrzScannerView(_ mrzScannerView: EmiratesIDMRZScannerView, didFind scanResult: MRZScanResult)
 }
 
@@ -31,9 +31,6 @@ public class EmiratesIDMRZScannerView: UIView {
     public weak var delegate: QKMRZScannerViewDelegate?
     
     var imgView:UIImageView!
-    
-    var label:UILabel!
-    
     
     public var cutoutRect: CGRect {
         return cutoutView.cutoutRect
@@ -71,16 +68,6 @@ public class EmiratesIDMRZScannerView: UIView {
     
     // MARK: Scanning
     public func startScanning() {
-//        guard let image2 = UIImage(named: "IMG_4152",
-//                             in: Bundle(for: QKMRZScannerView.self),
-//                             compatibleWith: nil) else { return }
-//
-//        //guard let image = UIImage(named: "test") else { return }
-//        tesseract.performOCR(on: image2) { recognizedString in
-//
-//            guard let recognizedString = recognizedString else { return }
-//            print(recognizedString)
-//        }
         guard (!captureSession.inputs.isEmpty && !captureSession.inputs.isEmpty) else {
             return
         }
@@ -196,24 +183,14 @@ public class EmiratesIDMRZScannerView: UIView {
         imgView.backgroundColor = .clear
         imgView.layer.borderColor = UIColor.white.cgColor
         imgView.layer.borderWidth = 4
-        //imgView.isHidden = true
-        
-        label = UILabel(frame: CGRect(x: 50, y: self.frame.maxY - 200, width: self.frame.width, height: 200))
-        label.backgroundColor = .white
-        label.textColor = .black
-        label.numberOfLines = 0
-        label.isHidden = true
+        imgView.isHidden = true
     
         setViewStyle()
         addCutoutView()
         initCaptureSession()
         addAppObservers()
-        addSubview(imgView)
-        self.superview?.bringSubviewToFront(imgView)
-        
-        addSubview(label)
-        self.superview?.bringSubviewToFront(label)
-       
+        //addSubview(imgView)
+        //self.superview?.bringSubviewToFront(imgView)
     }
     
     fileprivate func setViewStyle() {
@@ -382,14 +359,12 @@ extension EmiratesIDMRZScannerView: AVCaptureVideoDataOutputSampleBufferDelegate
         
         let cgImage = self.cgImage(from: imageBuffer)
         let documentImage = self.documentImage(from: cgImage)
-        DispatchQueue.main.async { // Make sure you're on the main thread here
-            let customImg = self.CustomImg(from: documentImage)
-            let scannedImage = self.preprocessImage(customImg)
-            self.imgView.image = scannedImage
-        }
+//        DispatchQueue.main.async { // Make sure you're on the main thread here
+//            let customImg = self.CustomImg(from: documentImage)
+//            let scannedImage = self.preprocessImage(customImg)
+//            self.imgView.image = scannedImage
+//        }
         if let mrzResult = mrz(from: documentImage), mrzResult.allCheckDigitsValid {
-            stopScanning()
-            
             DispatchQueue.main.async {
                 let enlargedDocumentImage = self.enlargedDocumentImage(from: cgImage)
                 let scanResult = MRZScanResult(mrzResult: mrzResult, documentImage: enlargedDocumentImage)

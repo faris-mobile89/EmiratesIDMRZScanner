@@ -28,7 +28,7 @@ public class EmiratesIDMRZScannerView: UIView {
     fileprivate var isScanningPaused = false
     fileprivate var observer: NSKeyValueObservation?
     @objc public dynamic var isScanning = false
-    public weak var delegate: QKMRZScannerViewDelegate?
+    public weak var delegate: EmiratesIDMRZScannerViewDelegate?
     
     var imgView:UIImageView!
     

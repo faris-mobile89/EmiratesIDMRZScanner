@@ -99,9 +99,6 @@ public class EmiratesIDMRZScannerView: UIView {
         
         if let string = recognizedString, let mrzLines = mrzLines(from: string) {
             //isScanningTD1Format = (mrzLines.last!.count == 30) // TD1 lines are 30 chars long
-            DispatchQueue.main.async { // Make sure you're on the main thread here
-                self.label.text = mrzLines.joined(separator: "\n")
-            }
             return mrzParser.parse(mrzLines: mrzLines)
         }
         
